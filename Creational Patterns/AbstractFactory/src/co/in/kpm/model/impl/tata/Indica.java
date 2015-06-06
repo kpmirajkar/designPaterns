@@ -2,7 +2,7 @@ package co.in.kpm.model.impl.tata;
 
 import co.in.kpm.model.ICar;
 import co.in.kpm.model.IType;
-import co.in.kpm.model.impl.VehicalType;
+import co.in.kpm.model.impl.VehicleType;
 
 public class Indica implements ICar {
 
@@ -18,6 +18,6 @@ public class Indica implements ICar {
 
 	@Override
 	public IType getType() {
-	  return VehicalType.HATCH_BACK;
+	  return VehicleType.HATCH_BACK;
 	}
 }

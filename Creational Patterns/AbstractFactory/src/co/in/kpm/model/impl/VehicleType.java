@@ -2,7 +2,7 @@ package co.in.kpm.model.impl;
 
 import co.in.kpm.model.IType;
 
-public enum VehicalType implements IType {
+public enum VehicleType implements IType {
   SEDAN("Sedan"), //
   SUV("Suv"), //
   HATCH_BACK("Hatch Back"), //
@@ -13,7 +13,7 @@ public enum VehicalType implements IType {
   private final String typeName;
 
 
-  private VehicalType(String typeName) {
+  private VehicleType(String typeName) {
     this.typeName = typeName;
   }
 

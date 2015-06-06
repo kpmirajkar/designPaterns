@@ -2,7 +2,7 @@ package co.in.kpm.model.impl.mercedes;
 
 import co.in.kpm.model.IBus;
 import co.in.kpm.model.IType;
-import co.in.kpm.model.impl.VehicalType;
+import co.in.kpm.model.impl.VehicleType;
 
 public class SkyBus implements IBus {
 
@@ -18,7 +18,7 @@ public class SkyBus implements IBus {
 	
 	@Override
 	public IType getType() {
-	  return VehicalType.LUXURY_BUS;
+	  return VehicleType.LUXURY_BUS;
 	}
 
 }

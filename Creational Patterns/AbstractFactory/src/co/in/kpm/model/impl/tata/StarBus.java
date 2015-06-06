@@ -2,7 +2,7 @@ package co.in.kpm.model.impl.tata;
 
 import co.in.kpm.model.IBus;
 import co.in.kpm.model.IType;
-import co.in.kpm.model.impl.VehicalType;
+import co.in.kpm.model.impl.VehicleType;
 
 public class StarBus implements IBus {
 
@@ -20,6 +20,6 @@ public class StarBus implements IBus {
 
   @Override
   public IType getType() {
-    return VehicalType.EXECUTIVE_BUS;
+    return VehicleType.EXECUTIVE_BUS;
   }
 }

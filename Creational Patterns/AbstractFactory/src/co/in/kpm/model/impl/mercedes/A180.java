@@ -2,7 +2,7 @@ package co.in.kpm.model.impl.mercedes;
 
 import co.in.kpm.model.ICar;
 import co.in.kpm.model.IType;
-import co.in.kpm.model.impl.VehicalType;
+import co.in.kpm.model.impl.VehicleType;
 
 public class A180 implements ICar {
 
@@ -20,7 +20,7 @@ public class A180 implements ICar {
 
   @Override
   public IType getType() {
-    return VehicalType.HATCH_BACK;
+    return VehicleType.HATCH_BACK;
   }
 
 }

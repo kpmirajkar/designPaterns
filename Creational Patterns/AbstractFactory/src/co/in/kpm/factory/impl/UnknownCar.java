@@ -2,23 +2,23 @@ package co.in.kpm.factory.impl;
 
 import co.in.kpm.model.ICar;
 import co.in.kpm.model.IType;
-import co.in.kpm.model.impl.VehicalType;
+import co.in.kpm.model.impl.VehicleType;
 
 public class UnknownCar implements ICar{
   @Override
   public IType getType() {
-    return VehicalType.UNKNOWN;
+    return VehicleType.UNKNOWN;
   }
   
   
   @Override
   public String getName() {
-    return VehicalType.UNKNOWN.toString();
+    return VehicleType.UNKNOWN.toString();
   }
   
   
   @Override
   public String getManufacturer() {
-    return VehicalType.UNKNOWN.toString();
+    return VehicleType.UNKNOWN.toString();
   }
 }
