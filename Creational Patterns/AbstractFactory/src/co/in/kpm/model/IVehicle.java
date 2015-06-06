@@ -1,6 +1,6 @@
 package co.in.kpm.model;
 
-public interface IVehical {
+public interface IVehicle {
   String getName();
 
 

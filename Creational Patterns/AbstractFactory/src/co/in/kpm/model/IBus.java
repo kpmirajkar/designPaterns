@@ -1,5 +1,5 @@
 package co.in.kpm.model;
 
-public interface IBus extends IVehical {
+public interface IBus extends IVehicle {
 
 }

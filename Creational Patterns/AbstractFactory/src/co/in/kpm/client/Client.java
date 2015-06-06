@@ -2,13 +2,13 @@ package co.in.kpm.client;
 
 import co.in.kpm.factory.Factory;
 import co.in.kpm.factory.IVehicalFactory;
-import co.in.kpm.model.IVehical;
+import co.in.kpm.model.IVehicle;
 
 public class Client {
 
   public static void main(String[] args) {
     IVehicalFactory factory = Factory.getInstance().getMercedesFactory();
-    IVehical v = factory.createBus("SkyBus");
+    IVehicle v = factory.createBus("SkyBus");
     System.out.println("Manufacturer: " + v.getManufacturer() + ", Type: " + v.getType() + ", Vehicle Name:" + v.getName());
     v = factory.createCar("A180");
     System.out.println("Manufacturer: " + v.getManufacturer() + ", Type: " + v.getType() + ", Vehicle Name:" + v.getName());
